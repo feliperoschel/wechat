@@ -1,0 +1,8 @@
+<!--landing.wxml-->
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <view class='box'>
+    <text class="h1">FMC</text>
+    <text class="p">Welcome to the daily Dev's struggle</text>
+    <button class="btn btn-flat" bindtap="goToStoriesPage">Get abroad</button>
+  </view>
+</view>

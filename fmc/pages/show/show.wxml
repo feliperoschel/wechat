@@ -1,0 +1,9 @@
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <view class='box'>
+    <text class="h1">FMC</text>
+    <view class="p">{{stories.name}}</view>
+    <view class="p">{{stories.text}}</view>
+    <button data-id="{{stories}}" class="btn btn-flat" bindtap="goToEditPage">Edit Story</button>
+    <button data-id="{{stories}}" class="btn btn-flat" bindtap="deleteStory">Delete Story</button>
+  </view>
+</view>

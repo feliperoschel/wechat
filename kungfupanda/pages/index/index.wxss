@@ -1,0 +1,32 @@
+/*----*/
+
+.title {
+  /*font-family: Avenir;*/
+  font-style: arial;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  /*text-align: center; */
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1557837488&di=0a778f277f677f6d3a346e7c54ab88d9&src=http://images.669pic.com/element_pic/50/94/42/94/ea3b5a83a8005741d0aeb159f926955f.jpg');
+  background-position: center -30px;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+   padding:30px;
+}
+
+.btn  {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin: 30px;
+}

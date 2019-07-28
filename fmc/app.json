@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/landing/landing",
+    "pages/stories/stories",
+    "pages/show/show",
+    "pages/post/post",
+    "pages/edit/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "blue",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/landing/landing",
+        "text": "Landing"
+      },
+      {
+        "pagePath": "pages/stories/stories",
+        "text": "Stories"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "Posts"
+      }
+    ]
+  }
+}

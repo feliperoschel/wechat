@@ -1,0 +1,44 @@
+/* pages/stories/stories.wxss */
+
+.banner {
+  background-color: black;
+  padding: 80rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .h2 {
+  color: white;
+  font-size: 60rpx;
+  font-weight: bold;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120rpx;
+  background: white;
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20rpx;
+  padding: 20rpx;
+}
+
+.card-product h2 {
+  font-size: 50rpx;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 30rpx;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 20px;
+}

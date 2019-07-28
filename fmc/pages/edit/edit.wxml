@@ -1,0 +1,15 @@
+<!--pages/edit/edit.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="name" value="{{stories.name}}" placeholder="Felipe"/>
+  </view>
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="content" value="{{stories.text}}" placeholder="You FMC quote here..." />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>

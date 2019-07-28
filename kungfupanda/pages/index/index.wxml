@@ -1,0 +1,6 @@
+<view class="banner">
+<view class="container">
+<text class="title">Let's Code!</text>
+<button class="btn">Start</button>
+</view>
+</view>
